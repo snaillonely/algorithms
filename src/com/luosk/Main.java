@@ -1,14 +1,14 @@
 package com.luosk;
 
-import com.luosk.leetcode.Q001_TwoSum;
-import com.luosk.leetcode.Q005_LongestPalindromicSubstring;
+import com.luosk.leetcode.Q008_StringToInteger;
+import com.luosk.leetcode.Q010_RegularExpressionMatching;
 
 public class Main {
 
     public static void main(String[] args) {
-        String s = "cbbd";
+        Q010_RegularExpressionMatching solution = new Q010_RegularExpressionMatching();
+        String s = "aaa", p = "ab*ac*a";
 
-        Q005_LongestPalindromicSubstring solution = new Q005_LongestPalindromicSubstring();
-        System.out.println(solution.longestPalindrome(s));
+        System.out.println(solution.isMatch(s, p));
     }
 }
