@@ -1,14 +1,13 @@
 package com.luosk;
 
-import com.luosk.leetcode.Q008_StringToInteger;
-import com.luosk.leetcode.Q010_RegularExpressionMatching;
+import com.luosk.leetcode.Q017_LetterCombinationsOfAPhoneNumber;
 
 public class Main {
 
     public static void main(String[] args) {
-        Q010_RegularExpressionMatching solution = new Q010_RegularExpressionMatching();
-        String s = "aaa", p = "ab*ac*a";
+        Q017_LetterCombinationsOfAPhoneNumber solution = new Q017_LetterCombinationsOfAPhoneNumber();
+        String digits = "23";
 
-        System.out.println(solution.isMatch(s, p));
+        System.out.println(solution.letterCombinations(digits));
     }
 }
