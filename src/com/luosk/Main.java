@@ -1,13 +1,13 @@
 package com.luosk;
 
-import com.luosk.leetcode.Q017_LetterCombinationsOfAPhoneNumber;
+import com.luosk.leetcode.Q029_DivideTwoIntegers;
 
 public class Main {
 
     public static void main(String[] args) {
-        Q017_LetterCombinationsOfAPhoneNumber solution = new Q017_LetterCombinationsOfAPhoneNumber();
-        String digits = "23";
+        Q029_DivideTwoIntegers solution = new Q029_DivideTwoIntegers();
+        int a = -2147483648, b = -1;
 
-        System.out.println(solution.letterCombinations(digits));
+        System.out.println(solution.divide(a, b));
     }
 }
