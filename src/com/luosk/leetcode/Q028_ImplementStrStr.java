@@ -10,6 +10,7 @@ public class Q028_ImplementStrStr {
             return 0;
         }
 
+        // watchout: the condition here is <=
         for (int i = 0; i <= haystack.length() - needle.length(); i++) {
             for (int j = 0; j < needle.length(); j++) {
                 if (haystack.charAt(i + j) != needle.charAt(j)) {

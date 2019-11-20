@@ -101,4 +101,8 @@ public class Q025_ReverseNodesInKGroup {
 
         return dummy.next;
     }
+
+    private ListNode reverseKGroup_04(ListNode head, int k) {
+        return null;
+    }
 }
