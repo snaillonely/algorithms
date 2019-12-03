@@ -1,14 +1,19 @@
 package com.luosk;
 
-import com.luosk.leetcode.Q050_PowerXN;
+import com.luosk.leetcode.Q155_MinStack;
 
 public class Main {
 
     public static void main(String[] args) {
-        Q050_PowerXN solution = new Q050_PowerXN();
-        double x = 3.0;
-        int n = -3;
 
-        System.out.println(solution.myPow(x, n));
+        Q155_MinStack minStack = new Q155_MinStack();
+
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        System.out.println(minStack.getMin());
+        minStack.pop();
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
     }
 }

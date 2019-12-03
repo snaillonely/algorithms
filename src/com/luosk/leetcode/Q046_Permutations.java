@@ -7,7 +7,7 @@ import java.util.List;
 // todo: review
 public class Q046_Permutations {
     public List<List<Integer>> permute(int[] nums) {
-        return permute_01(nums);
+        return permute_02(nums);
     }
 
     private List<List<Integer>> permute_01(int[] nums) {
