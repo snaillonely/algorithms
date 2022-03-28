@@ -2,7 +2,7 @@ package com.luosk.leetcode;
 
 public class Q072_EditDistance {
     public int minDistance(String word1, String word2) {
-
+        return 0;
     }
 
     private int minDistance_01(String word1, String word2) {
